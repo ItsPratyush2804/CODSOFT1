@@ -1,0 +1,59 @@
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blue;
+}
+
+
+
+#boss {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    border-radius: 1opx;
+    max-width: 600px;
+    overflow: hidden;
+}
+#display {
+    width: 100%;
+    padding: 25px;
+    font-size:4rem;
+    text-align: left;
+    border: none;
+    background-color: white
+
+}
+
+
+
+#icons {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+
+button{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: none;
+    background-color: aqua;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: blueviolet;
+}
+
+.Operator-btn{
+    background-color: yellow;
+
+}
